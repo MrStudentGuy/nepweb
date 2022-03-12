@@ -1,0 +1,27 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12vh;
+    background-color: #212226;
+    color: #fff;
+}
+
+.list {
+    display:inline-block;
+    list-style-type:none;
+    margin: 1vh;
+}
+
+.listItem {
+    margin-right: 1vh;
+    display:inline-block;
+    list-style-type:none;
+}
+
+.logoItem {
+    margin-right: 5vh;
+    display:inline-block;
+    list-style-type:none;
+    font-size: 5vh;
+}

@@ -26,8 +26,8 @@ const Login: NextPage = () => {
         if(mobileCheck()) {
             signInWithRedirect(auth, googleProvider)
                 .then(async (result) => {
-                    setLoggedIn(true);
                     console.log(result);
+                    setLoggedIn(true);
                     redirIfLoggedIn();
                 })
                 .catch((error) => {
@@ -43,7 +43,7 @@ const Login: NextPage = () => {
                     redirIfLoggedIn();
                 })
                 .catch((error) => {
-                    toast.error(error.message);
+                    toast.error(error.message)
                 })
         }
     } 
